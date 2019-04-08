@@ -11,7 +11,8 @@ Edward J. Apostol - April 2019
 
 ** Details
 
-The model, view and controller subscribe to a form of
+The model, view and controller subscribe to a form of _factory_ style pattern of development.
+
 *** The Controller
 
 In Controller.js a variable called Controller is an IIFE that returns an instance of a controller object.
