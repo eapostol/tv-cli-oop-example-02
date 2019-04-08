@@ -27,4 +27,4 @@ In View.js a variable called View is an IIFE that returns an instance of a "view
 
 *** The Models
 
-In the models folder there are several models. They serve to "organize" data in a particular grouping (for example an "Actor" model is the organization of data that is concerned with an Actor. Physically it is similar in structure to the returned JSON object that comes from requesting actor information from the TVMaze service, but
+In the models folder there are several models. They serve to "organize" data in a particular grouping (for example an "Actor" model is the organization of data that is concerned with an Actor. Physically it is similar in structure to the returned JSON object that comes from requesting actor information from the TVMaze service, but the data is _normalized_ to only carry the information that the application will require.
