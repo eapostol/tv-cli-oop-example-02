@@ -17,8 +17,6 @@ The model, view and controller subscribe to a form of _factory_ style pattern of
 
 In Controller.js a variable called Controller is an IIFE that returns an instance of a controller object.
 
-see https://cl.ly/a8ccc9671f07
-
 
 *** The View
 
